@@ -1,0 +1,143 @@
+.home {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  .content {
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+    height: 45rem;
+    justify-content: center;
+    position: relative;
+    .main {
+      align-items: center;
+      display: flex;
+      gap: 10rem;
+      justify-content: center;
+      position: relative;
+      .text {
+        display: flex;
+        flex-direction: column;
+        max-width: 50rem;
+        position: relative;
+        p {
+          color: #767676;
+          font-family: Mulish, sans-serif;
+          font-size: 1.8rem;
+          font-weight: 500;
+          line-height: 1.6;
+        }
+        .title {
+          color: #2d2e32;
+          font-size: 4.5rem;
+          line-height: 1.2;
+          margin-bottom: 2rem;
+          margin-top: 2rem;
+        }
+        .link {
+          cursor: pointer;
+          display: flex;
+          gap: 1.3rem;
+          margin: 2.5rem 0;
+
+          a {
+            font-size: 3rem;
+            color: #2d2e32;
+
+            :hover {
+              transition: all 0.2s;
+              color: rgb(32, 148, 194);
+            }
+          }
+        }
+        img {
+          position: absolute;
+          right: 13rem;
+          top: 8.7rem;
+          width: 6rem;
+        }
+      }
+      .img {
+        -webkit-animation: morph 8s ease-in-out infinite;
+        animation: morph 8s ease-in-out infinite;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid #2d2e32;
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        height: 35rem;
+        position: relative;
+        transition: all 1s ease-in-out;
+        width: 35rem;
+
+        @keyframes morph {
+          0% {
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+          }
+          50% {
+            border-radius: 33% 60% 70% 40%/50% 60% 30% 60%;
+          }
+          100% {
+            border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+          }
+        }
+      }
+    }
+    .skills {
+      align-items: center;
+      bottom: -7rem;
+      color: #767676;
+      display: flex;
+      font-size: 1.7rem;
+      left: 0;
+      position: absolute;
+      p {
+        border-right: 2px solid rgba(45, 46, 50, 0.5);
+        color: #2d2e32;
+        font-family: Mulish, sans-serif;
+        font-weight: 600;
+        margin-right: 7rem;
+        padding-right: 2rem;
+      }
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        list-style: none;
+        li {
+          font-size: 4rem;
+          align-items: center;
+          background-color: #fff;
+          border-radius: 50%;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+          cursor: pointer;
+          display: flex;
+          height: 6.5rem;
+          justify-content: center;
+          width: 6.5rem;
+          .html {
+            color: #e34f26;
+          }
+          .css {
+            color: #1572b6;
+          }
+          .js {
+            color: #f7df1e;
+          }
+          .react {
+            color: #53c1de;
+          }
+          .tailwind {
+            color: #38bdf8;
+          }
+          .sass {
+            color: #cc6699;
+          }
+        }
+      }
+    }
+  }
+}

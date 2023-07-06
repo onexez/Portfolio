@@ -1,0 +1,40 @@
+.header {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  display: flex;
+  font-size: 1.7rem;
+  height: auto;
+  justify-content: space-between;
+  left: 0;
+  padding: 25px 40px 25px 50px;
+  // position: fixed;
+  top: 0;
+  width: 100%;
+  .title {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  .list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    .item {
+      a:hover {
+        color: rgb(32, 148, 194);
+      }
+    }
+  }
+}
+
+nav ul a {
+  color: #2d2e32;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.23s;
+}
