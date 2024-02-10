@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './About.module.scss';
+import React from "react";
+import styles from "./About.module.scss";
 
 export const About = () => {
   return (
@@ -28,18 +28,13 @@ export const About = () => {
           <div className={styles.text_side}>
             <h3>About Me</h3>
             <h4>
-              A dedicated Front-end Developer <br />
-              based in Belgrade, Serbia 📍
+              Добро пожаловать в мой мир <br />
+              веб-разработки!
             </h4>
             <p>
-              As a Junior Front-End Developer, I possess an impressive arsenal
-              of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I
-              excel in designing and maintaining responsive websites that offer
-              a smooth user experience. My expertise lies in crafting dynamic,
-              engaging interfaces through writing clean and optimized code and
-              utilizing cutting-edge development tools and techniques. I am also
-              a team player who thrives in collaborating with cross-functional
-              teams to produce outstanding web applications.
+              Привет! Меня зовут Дима, и я - фронтенд разработчик с огромным вдохновением и страстью
+              к созданию удивительных веб-сайтов. Мой опыт включает в себя работу с современными
+              технологиями и фреймворками, а также стремление к постоянному обучению и улучшению.
             </p>
           </div>
         </div>

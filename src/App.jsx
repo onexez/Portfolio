@@ -1,8 +1,9 @@
-import './App.scss';
-import { About } from './components/about/About';
-import { Header } from './components/header/Header';
-import { Home } from './components/home/Home';
-import { Portfolio } from './components/portfolio/Portfolio';
+import "./App.scss";
+import { About } from "./components/about/About";
+import { Footer } from "./components/footer/Footer";
+import { Header } from "./components/header/Header";
+import { Home } from "./components/home/Home";
+import { Projects } from "./components/projects/Projects";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Portfolio />
+      <Projects />
+      <Footer />
     </>
   );
 }

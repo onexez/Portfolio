@@ -1,0 +1,30 @@
+.footer {
+  background-color: #2d2e32;
+  padding: 5rem 0;
+  width: 100%;
+  .footer_cr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+      color: #fff;
+      font-size: 1.7rem;
+    }
+    .footer_socials {
+      align-items: center;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 1rem;
+      a {
+        color: #fff;
+        font-size: 2.3rem;
+      }
+      :hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+}

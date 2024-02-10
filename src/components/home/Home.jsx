@@ -1,10 +1,10 @@
-import styles from './home.module.scss';
-import { BsTelegram } from 'react-icons/bs';
-import { AiFillGithub, AiFillHtml5 } from 'react-icons/ai';
-import { DiCss3 } from 'react-icons/di';
-import { IoLogoJavascript } from 'react-icons/io';
-import { FaReact } from 'react-icons/fa';
-import { SiTailwindcss, SiSass } from 'react-icons/si';
+import styles from "./home.module.scss";
+import { BsTelegram } from "react-icons/bs";
+import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiSass } from "react-icons/si";
 
 export const Home = () => {
   return (
@@ -20,16 +20,14 @@ export const Home = () => {
                 alt="waving_hand"
               ></img>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Praesentium, numquam. Esse nulla omnis culpa aperiam placeat
-                unde totam dicta dolor natus voluptate molestiae, temporibus
-                quis ea odio ratione, perferendis dignissimos?
+                Начинающий фронтенд-разработчик, ищущий возможность внести вклад в профессиональное
+                сообщество, используя свои знания веб-технологий и готовый к обучению.
               </p>
               <span className={styles.link}>
-                <a aria-label="telegram" href="">
+                <a aria-label="telegram" href="https://t.me/onexez">
                   <BsTelegram />
                 </a>
-                <a aria-label="github" href="">
+                <a aria-label="github" href="https://github.com/onexez">
                   <AiFillGithub />
                 </a>
               </span>
