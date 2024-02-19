@@ -1,4 +1,4 @@
-import styles from "./Home.module.scss";
+import { styles } from "./Home.module.scss";
 import { BsTelegram } from "react-icons/bs";
 import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";

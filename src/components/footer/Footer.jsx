@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Footer.module.scss";
+import { styles } from "./Footer.module.scss";
 import { BsTelegram } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 
