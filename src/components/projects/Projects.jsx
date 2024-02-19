@@ -11,7 +11,7 @@ export const Projects = () => {
             <div className={styles.project_example}>
               <div className={styles.project_img}>
                 <a target="_blank" href="https://onexez.github.io/games/" rel="noreferrer">
-                  <img src="src\components\projects\projects-pic\games1.png" alt="" />
+                  <img src=".\src\components\projects\projects-pic\games1.png" alt="" />
                 </a>
               </div>
               <div className={styles.pro_text}>
