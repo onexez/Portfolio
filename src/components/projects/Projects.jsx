@@ -1,4 +1,5 @@
 import styles from "./Projects.module.scss";
+import games from "./projects-pic/games1";
 
 export const Projects = () => {
   return (
@@ -11,7 +12,7 @@ export const Projects = () => {
             <div className={styles.project_example}>
               <div className={styles.project_img}>
                 <a target="_blank" href="https://onexez.github.io/games/" rel="noreferrer">
-                  <img src=".\src\components\projects\projects-pic\games1.png" alt="" />
+                  <img src={games} alt="" />
                 </a>
               </div>
               <div className={styles.pro_text}>
