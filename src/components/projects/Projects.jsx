@@ -1,5 +1,5 @@
 import styles from "./Projects.module.scss";
-import games from "./projects-pic/games1";
+import games from "../projects/projects-pic/games1.png";
 
 export const Projects = () => {
   return (
