@@ -3,19 +3,19 @@ import styles from "./Header.module.scss";
 export const Header = () => {
   return (
     <nav className={styles.header}>
-      <h3 className={styles.title}>Portfolio.dev</h3>
+      <h3 className={styles.title}>Портфолио</h3>
       <ul className={styles.list}>
         <li className={styles.item}>
-          <a href="">Home</a>
+          <a href="">Главная</a>
         </li>
         <li className={styles.item}>
-          <a href="">About</a>
+          <a href="">Обо мне</a>
         </li>
         <li className={styles.item}>
-          <a href="">Projects</a>
+          <a href="">Проекты</a>
         </li>
         <li className={styles.item}>
-          <a href="">Contact</a>
+          <a href="">Контакты</a>
         </li>
       </ul>
     </nav>

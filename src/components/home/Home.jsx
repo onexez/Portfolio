@@ -5,6 +5,7 @@ import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiSass } from "react-icons/si";
+import waving from "../home/home-pic/waving.png";
 
 export const Home = () => {
   return (
@@ -14,11 +15,7 @@ export const Home = () => {
           <div className={styles.main}>
             <div className={styles.text}>
               <h1 className={styles.title}>Junior Front-End Developer</h1>
-              <img
-                className=""
-                src="src\components\home\home-pic\waving.1bae5fcfb51082b5c2b4.png"
-                alt="waving_hand"
-              ></img>
+              <img className="" src={waving} alt="waving_hand"></img>
               <p>
                 Начинающий фронтенд-разработчик, ищущий возможность внести вклад в профессиональное
                 сообщество, используя свои знания веб-технологий и готовый к обучению.

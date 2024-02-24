@@ -1,5 +1,10 @@
 import styles from "./Projects.module.scss";
-import games from "../projects/projects-pic/games1.png";
+import games from "../projects/projects-pic/games.png";
+import site from "../projects/projects-pic/site.png";
+import movie from "../projects/projects-pic/movie.png";
+import food from "../projects/projects-pic/food.png";
+import store from "../projects/projects-pic/store.png";
+import todo from "../projects/projects-pic/todo.png";
 
 export const Projects = () => {
   return (
@@ -62,7 +67,7 @@ export const Projects = () => {
                   href="https://stalwart-fudge-330544.netlify.app/"
                   rel="noreferrer"
                 >
-                  <img src="src\components\projects\projects-pic\site2.png" alt="" />
+                  <img src={site} alt="" />
                 </a>
               </div>
               <div className={styles.pro_text}>
@@ -120,7 +125,7 @@ export const Projects = () => {
       <div className={styles.project_skill}>
         <div className={styles.project_skill_items}>
           <div className={styles.items_img}>
-            <img src="src\components\projects\projects-pic\movie.png" alt="" />
+            <img src={movie} alt="" />
             <h3>Поиск фильмов</h3>
             <div className={styles.img_stack}>
               <p>React</p>
@@ -162,7 +167,7 @@ export const Projects = () => {
             </div>
           </div>
           <div className={styles.items_img}>
-            <img src="src\components\projects\projects-pic\food.png" alt="" />
+            <img src={food} alt="" />
             <h3>SPA поиск блюд</h3>
             <div className={styles.img_stack}>
               <p>React</p>
@@ -201,7 +206,7 @@ export const Projects = () => {
             </div>
           </div>
           <div className={styles.items_img}>
-            <img src="src\components\projects\projects-pic\store.png" alt="" />
+            <img src={store} alt="" />
             <h3>Магазин с корзиной</h3>
             <div className={styles.img_stack}>
               <p>React</p>
@@ -243,7 +248,7 @@ export const Projects = () => {
             </div>
           </div>
           <div className={styles.items_img}>
-            <img src="src\components\projects\projects-pic\todo.png" alt="" />
+            <img src={todo} alt="" />
             <h3>Список задач</h3>
             <div className={styles.img_stack}>
               <p>React</p>
