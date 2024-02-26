@@ -198,3 +198,20 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  .project {
+    .project_content {
+      .projects_grid {
+        .project_example {
+          gap: 2rem;
+        }
+      }
+    }
+
+    .project_skill {
+      .project_skill_items {
+        grid-template-columns: none;
+      }
+    }
+  }
+}
