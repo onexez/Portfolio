@@ -2,7 +2,7 @@
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: auto;
   position: relative;
   width: 100%;
   .content {
@@ -135,6 +135,50 @@
           }
           .sass {
             color: #cc6699;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .home {
+    .content {
+      .skills {
+        bottom: -12rem;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    .content {
+      height: 100rem;
+      .main {
+        flex-direction: column-reverse;
+        .text {
+          .title {
+            font-size: 3.5rem;
+            text-align: center;
+          }
+          img {
+            right: -5rem;
+            top: 1.7rem;
+            width: 5rem;
+          }
+          p {
+            font-size: 1.5rem;
+            text-align: center;
+          }
+          span {
+            justify-content: center;
+          }
+        }
+      }
+      .skills {
+        ul {
+          li {
+            font-size: 3rem;
           }
         }
       }

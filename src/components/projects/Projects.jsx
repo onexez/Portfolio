@@ -12,7 +12,7 @@ export const Projects = () => {
       <div className="container">
         <div className={styles.project_content}>
           <p>Portfolio</p>
-          <h3>Each project is a unique piece of development 🧩</h3>
+          <h3> 🧩</h3>
           <div className={styles.projects_grid}>
             <div className={styles.project_example}>
               <div className={styles.project_img}>
