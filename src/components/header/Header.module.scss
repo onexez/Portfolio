@@ -21,12 +21,13 @@
     gap: 2rem;
     list-style: none;
     .item {
+      cursor: pointer;
       a:hover {
         color: rgb(32, 148, 194);
       }
-      svg {
-        display: none;
-      }
+    }
+    .mobile_item {
+      display: none;
     }
   }
 }
@@ -36,4 +37,17 @@ nav ul a {
   font-weight: 600;
   text-decoration: none;
   transition: all 0.23s;
+}
+
+@media (max-width: 768px) {
+  .header {
+    .list {
+      .item {
+        display: none;
+      }
+      .mobile_item {
+        display: flex;
+      }
+    }
+  }
 }
