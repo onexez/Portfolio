@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import "./Burgermenu.scss";
+import "./BurgerMenu.scss";
 
 export const BurgerMenu = ({ toggleMenu, isActive, setIsActive }) => {
   console.log(isActive);
