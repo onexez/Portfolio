@@ -237,3 +237,29 @@
     }
   }
 }
+@media (max-width: 425px) {
+  .project {
+    .project_content {
+      .projects_grid {
+        .project_example {
+        }
+        :last-child {
+          .project_img {
+            height: 21rem;
+          }
+        }
+      }
+    }
+    .project_skill {
+      .project_skill_items {
+        .items_img {
+          background-color: #f9f9f9;
+          img {
+            width: 35rem;
+            height: 66%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -176,10 +176,40 @@
         }
       }
       .skills {
+        display: block;
+        p {
+          text-align: center;
+          border-bottom: 2px solid rgba(45, 46, 50, 0.5);
+          border-right: none;
+          margin: 0;
+          padding: 0;
+        }
         ul {
+          flex-wrap: nowrap;
+          margin-top: 1rem;
           li {
             font-size: 3rem;
           }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .home {
+    .content {
+      .main {
+        .text {
+          img {
+            display: none;
+          }
+        }
+      }
+      .skills {
+        left: -20px;
+
+        ul {
+          gap: 0;
         }
       }
     }

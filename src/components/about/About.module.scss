@@ -67,5 +67,11 @@
     }
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+  .about {
+    .about_content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
 }
